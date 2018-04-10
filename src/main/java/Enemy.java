@@ -1,6 +1,12 @@
 
 public class Enemy implements Character {
 
+    public String weapon = "Knife";
+
+    public Enemy() {
+
+    }
+
     public void attack() {
         System.out.println("Enemy attacks you!");
     }
