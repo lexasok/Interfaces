@@ -17,5 +17,9 @@ public class Interfaces {
         darthVader.attack();
         obiWanKenobi.heal();
         obiWanKenobi.attack();
+
+        Character spy = summonCharacter();
+        spy.attack();
+        spy.heal();
     }
 }
