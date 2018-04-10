@@ -7,16 +7,15 @@ interface AdvencedArithmetic {
 class Calculator implements AdvencedArithmetic {
 
     public int divisorSum(int n) {
-//        int result = n;
-//        int i = n;
-//        while (i-- > 1) {
-//            if (n % i == 0) {
-//                result += i;
-//            }
-//        }
-//
-//        return result;
-        return 0;
+        int result = n;
+        int i = n;
+        while (i-- > 1) {
+            if (n % i == 0) {
+                result += i;
+            }
+        }
+
+        return result;
     }
 }
 
