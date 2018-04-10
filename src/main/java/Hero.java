@@ -1,7 +1,7 @@
 
 public class Hero implements Character {
 
-    String weapon = "Knife";
+    String weapon = "Sword";
 
     public Hero() {
 
