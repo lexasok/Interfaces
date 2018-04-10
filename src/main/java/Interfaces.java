@@ -12,6 +12,10 @@ public class Interfaces {
     }
 
     public static void main(String[] args) {
-
+        Enemy darthVader = new Enemy();
+        Hero obiWanKenobi = new Hero();
+        darthVader.attack();
+        obiWanKenobi.heal();
+        obiWanKenobi.attack();
     }
 }
